@@ -12,6 +12,17 @@ monitor.init({
   service: 'poc-react-monitoring',
 });
 
+// example custom logger
+// monitor.init({
+//   provider: 'custom',
+//   env: import.meta.env.VITE_DATADOG_ENV,
+//   token: import.meta.env.VITE_DATADOG_CLIENT_TOKEN,
+//   service: 'poc-react-monitoring',
+//   customLoggerFn: (log) => {
+//     console.log('Custom logger:', log);
+//   }
+// });
+
 function App() {
   return (
     <BrowserRouter>
