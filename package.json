@@ -15,7 +15,7 @@
     "npm": "^11.4.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-monitoring": "^1.0.17",
+    "react-monitoring": "^1.0.25",
     "react-router-dom": "^7.6.3"
   },
   "devDependencies": {

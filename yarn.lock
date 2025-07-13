@@ -2706,10 +2706,10 @@ react-is@^16.7.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-monitoring@^1.0.17:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/react-monitoring/-/react-monitoring-1.0.17.tgz#205c20560f55f8efe13c76885439dda39d910871"
-  integrity sha512-H3SwQwSLY+bG0hmlq6iI/VADINcy5tDgSwKMCgwhL2x7KZT4BwsClkt/svUk2uYbu/vpvDqGtctrXah+wCYLHA==
+react-monitoring@^1.0.25:
+  version "1.0.25"
+  resolved "https://registry.yarnpkg.com/react-monitoring/-/react-monitoring-1.0.25.tgz#686eca0cd5d64785c763864a57590d46c1925870"
+  integrity sha512-8DGnZqS31TXyVrRTZPfD8EWBDMYBKjZgY+whydShEN8ZPCX6xLfhlazKM8w8GoCj1yScC089QGH9dxvDxNkbJg==
   dependencies:
     "@datadog/browser-logs" "^6.13.0"
     "@sentry/react" "^9.37.0"
