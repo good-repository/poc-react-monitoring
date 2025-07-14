@@ -35,6 +35,7 @@ function ListPage() {
       logOptions={{
         logProperties: { action: 'errorBoundary' },
         message: `Error in item list component`,
+        level: 'error',
       }}
     >
       <div>
