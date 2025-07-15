@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { ErrorBoundary, logger } from "react-monitoring";
 import { fetchWithError } from "../api";
-// import { logger } from "./logger";
 
 function ListPage() {
   const [items] = useState([{ id: 1, name: 'Item 1' }]);

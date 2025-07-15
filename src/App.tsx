@@ -6,7 +6,7 @@ import { FormErrorPage, ListPage, Menu } from './components';
 
 monitor.init({
   provider: 'datadog',
-  environment: import.meta.env.VITE_DATADOG_ENV,
+  environment: import.meta.env.VITE_ENVIRONMENT,
   token: import.meta.env.VITE_DATADOG_CLIENT_TOKEN,
   trackErrors: false,
   service: 'poc-react-monitoring',
@@ -20,11 +20,22 @@ monitor.init({
   }
 });
 
+// monitor.init({
+//   provider: 'sentry',
+//   environment: import.meta.env.VITE_ENVIRONMENT,
+//   token: import.meta.env.VITE_SENTRY_TOKEN,
+// });
+
+// monitor.init({
+//   provider: 'logRocket',
+//   environment: import.meta.env.VITE_ENVIRONMENT,
+//   token: import.meta.env.VITE_LOGROCKET_TOKEN,
+// });
 
 // example custom logger
 // monitor.init({
 //   provider: 'custom',
-//   environment: import.meta.env.VITE_DATADOG_ENV,
+//   environment: import.meta.env.VITE_ENVIRONMENT,
 //   token: import.meta.env.VITE_DATADOG_CLIENT_TOKEN,
 //   service: 'poc-react-monitoring',
 //   customLoggerFn: (log) => {
